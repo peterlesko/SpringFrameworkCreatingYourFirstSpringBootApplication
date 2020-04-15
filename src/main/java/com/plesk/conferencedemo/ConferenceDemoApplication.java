@@ -11,6 +11,10 @@ public class ConferenceDemoApplication {
 	}
 }
 
+// Previous CRUD calls stopped working when introduced PersistenceConfiguration.java code, which also picks up from application.yml
+// only GET call to  http://localhost:5000/ works in Postman,
+// after commenting code in  PersistenceConfiguration.java CRUD calls are working again on either 5000 or 8080 ports.
+
 //controllers -for API controllers
 //models - JPA entities
 //repositories -JPA repositories
